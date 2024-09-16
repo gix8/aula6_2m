@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img\favicon.png">
+    <title>Projeto layout Ristorante</title>
+    <link rel="stylesheet" href="css\estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- div#nav_esq = atalho -->
+            <div id="nav_esq">
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="cardapio.html">Cardápio</a>
+                <a href="precos.html">Preços</a>
+                <a href="giftcard.html">Gift Card</a>
+            </div>
+            <div id="nav_logo">
+                
+            </div>
+            <div id="nav_dir">
+                <a href="faq.html">FAQ</a>
+                <a href="reservas.html">Reservas</a>
+                <a href="contato.html" class="menu_atual">Contato</a>
+                <a href="trabalhe-conosco.html">Trabalhe Conosco</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Contato</h1>
+        <section id="form_main">
+        
+        <div id="form_esq">
+        <form id="formulário" method="post" action="">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" multiple>
+            <br>
+            <label for="phone">Numero de telefone:</label>
+            <input type="number" id="phone" name="phone">
+            <br>
+            <label for="check">Li e aceito as políticas de privacidade</label>
+            <input type="checkbox" id="check" name="check" required>
+            <br>
+                <label for="number">Escolha o assunto</label>
+                 
+                <select type="number" id="number" name="number">
+                <optgroup>
+                    <option value="dvd">Dúvidas,elogios e reclamações</option>
+                    <option value="trb">Trabalhe conosco</option>
+                    <option value="orc">Orçamento</option>
+                </optgroup> 
+                </select>
+                <br>
+                <button type="submit" id="enviar">Enviar Formulário</button>
+        </form>
+        </div>
+        <div id="form_dir">
+
+        </div>
+        
+        </section>
+    </main>
+    <footer>
+
+
+    </footer>
+</body>
+</html>
