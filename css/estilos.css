@@ -109,3 +109,8 @@ input{
     width: 300px;
     height: 20px;
 }
+li{
+    margin: 5px;
+    background-color: #ffcaca;
+    padding: 5px;
+}
