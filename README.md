@@ -1,4 +1,4 @@
 # aula6_2m
 repositório dos códigos da aula 6 da turma 2M
-Essa é a versão 6
-Bom dia 
+essa é a versão 7
+bom dia
